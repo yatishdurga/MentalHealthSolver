@@ -4,3 +4,11 @@ __pycache__/
 *.DS_Store
 .idea/
 .vscode/
+node_modules/
+# Logs
+logs/
+# Temporary files
+*.log
+# Python specific
+*.pyo
+*.pyd
