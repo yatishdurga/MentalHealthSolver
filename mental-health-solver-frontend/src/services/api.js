@@ -1,14 +1,22 @@
-// src/services/api.js
-import axios from 'axios';
+const API_BASE_URL = "http://127.0.0.1:8000"; // OR use http://localhost:8000 if needed
 
-const API_BASE_URL = 'http://localhost:8000'; // 🔁 Change this if your backend is deployed elsewhere
-
-export const analyzeText = async (inputText) => {
+export const analyzeText = async (text) => {
   try {
-    const response = await axios.post(`${API_BASE_URL}/analyze`, { text: inputText });
-    return response.data;
+    const response = await fetch(`${API_BASE_URL}/analyze`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ text }),
+    });
+
+    if (!response.ok) {
+      throw new Error("Failed to analyze text");
+    }
+
+    return await response.json();
   } catch (error) {
-    console.error('API error:', error);
+    console.error("API error:", error.message);
     throw error;
   }
 };
