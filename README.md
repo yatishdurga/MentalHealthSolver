@@ -4,6 +4,16 @@ An AI-powered mental health assistant that uses Google Gemini, semantic search (
 
 ---
 
+
+![AI Assistant Mental Health](https://github.com/user-attachments/assets/b5e798b7-8dfd-4a2f-a4f4-4cb8957cf44c)
+
+
+<img width="695" alt="Screenshot 2025-06-30 at 3 48 58 PM" src="https://github.com/user-attachments/assets/a175c01f-27a9-4d0d-a806-2aaabee57f92" />
+
+
+
+
+
 ## 🏗️ Architecture Overview
 
 
