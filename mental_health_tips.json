@@ -1,0 +1,22 @@
+{
+    "depression": {
+        "tips": [
+            "Try journaling your thoughts daily.",
+            "Engage in light physical activity like a walk.",
+            "Talk to a friend or therapist."
+        ],
+        "books": ["Feeling Good by David Burns", "The Happiness Trap by Russ Harris"]
+    },
+    "anxiety": {
+        "tips": [
+            "Practice deep breathing for 3 minutes.",
+            "Write down your anxious thoughts.",
+            "Try the 5-4-3-2-1 grounding technique."
+        ],
+        "books": ["Unwinding Anxiety by Judson Brewer", "The Anxiety and Phobia Workbook"]
+    },
+    "normal": {
+        "tips": ["Keep doing what you're doing!", "Practice gratitude.", "Stay socially connected."],
+        "books": ["Atomic Habits by James Clear", "The Power of Now by Eckhart Tolle"]
+    }
+}
